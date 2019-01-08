@@ -24,5 +24,5 @@ app.post('/addUser', function (req, res) {
 
 var server = app.listen(8080,function(){
   var port = server.address().port
-  console.log('sample code for RESTful API run at ',port)
+  //console.log('sample code for RESTful API run at ',port)
 })
